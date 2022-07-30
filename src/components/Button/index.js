@@ -6,7 +6,7 @@ const shapes = {
   RoundedBorder4: "rounded-radius4",
 };
 const variants = {
-  icbFillBluegray500: "bg-bluegray_500",
+  icbFillTeal900: "bg-teal_900",
   FillBluegray900: "bg-bluegray_900 text-white_A700",
 };
 const sizes = {
@@ -43,7 +43,7 @@ Button.propTypes = {
   leftIcon: PropTypes.node,
   rightIcon: PropTypes.node,
   shape: PropTypes.oneOf(["icbCircleBorder20", "RoundedBorder4"]),
-  variant: PropTypes.oneOf(["icbFillBluegray500", "FillBluegray900"]),
+  variant: PropTypes.oneOf(["icbFillTeal900", "FillBluegray900"]),
   size: PropTypes.oneOf(["smIcn", "sm"]),
 };
 Button.defaultProps = {
@@ -51,7 +51,7 @@ Button.defaultProps = {
   leftIcon: null,
   rightIcon: null,
   shape: "icbCircleBorder20",
-  variant: "icbFillBluegray500",
+  variant: "icbFillTeal900",
   size: "smIcn",
 };
 
